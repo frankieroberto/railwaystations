@@ -1,0 +1,14 @@
+article {
+	max-width: 30em; margin: 0 auto; min-height: 50em; padding: .5em;
+}
+
+header {
+	padding: 1em 0;
+}
+
+header hgroup { padding: 0; }
+
+header h1,
+header h2 {
+	padding: 0; margin: .2em 0;
+}
