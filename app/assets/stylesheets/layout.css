@@ -20,3 +20,15 @@ ul {
 li {
 	margin: 0 0 .5em 0;
 }
+
+.short {
+	display: table-row;
+}
+
+.short header {
+	display: table-cell; width: 8em; padding-right: .5em; 
+}
+
+.short .content {
+	display: table-cell; padding-left: .5em;
+}

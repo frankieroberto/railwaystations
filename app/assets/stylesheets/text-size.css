@@ -9,3 +9,7 @@ header h1 {
 header hgroup h2 {
 	font-size: 1.2em;
 }
+
+.short .title {
+	font-size: 1em;
+}

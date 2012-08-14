@@ -7,5 +7,10 @@
 			<%= content_tag "h2", @station.id %>
 		<% end %>
 	<% end %>
+	
+	<%= render "short_section", { :title => t(:things_to_see), :content => @station.things_to_see } %>
+
+	<%= render "short_section", { :title => t(:nearest_pub), :content => @station.nearest_pub } %>
+
 
 <% end %>

@@ -1,3 +1,7 @@
 header {
 	text-align: center;
 }
+
+.short .title {
+	text-align: right;
+}
