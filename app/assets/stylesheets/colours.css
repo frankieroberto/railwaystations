@@ -2,6 +2,7 @@ body {
 	background-color: #013; color: #FCFCFF;
 }
 
-article {
+article,
+a {
 	background-color: #FCFCFF; color: #013;
 }
