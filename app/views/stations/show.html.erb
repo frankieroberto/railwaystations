@@ -2,11 +2,14 @@
 
 <%= content_tag "article" do %>
 	<%= content_tag "header" do %>
+	<%= image_tag "station_pictograms/#{@station.id}.svg", :width => nil, :height => nil, :class => 'station_pictogram' %>
+	
 		<%= content_tag "hgroup" do %>
 			<%= content_tag "h1", @station.name %>
 			<%= content_tag "h2", @station.id %>
 		<% end %>
 	<% end %>
+	
 	
 	<%= render "short_section", { :title => t(:things_to_see), :content => @station.things_to_see } %>
 

@@ -37,6 +37,10 @@ class Station
     {
     	:id => "LST",
     	:name => "London Liverpool Street"
+    },
+    {
+    	:id => "LDS",
+    	:name => "Leeds"
     }
   ]
 

@@ -1,5 +1,5 @@
 article {
-	max-width: 30em; margin: 0 auto; min-height: 50em; padding: 2em;
+	max-width: 30em; margin: 0 auto; min-height: 50em; padding: 1em;
 }
 
 header {
@@ -31,4 +31,8 @@ li {
 
 .short .content {
 	display: table-cell; padding-left: .5em;
+}
+
+.station_pictogram {
+	height: 6em; margin: 0 auto; display: block;
 }
