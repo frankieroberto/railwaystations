@@ -11,10 +11,25 @@
             <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
             <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
         </linearGradient>
+        <linearGradient id="gradient-3" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
+            <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
+        </linearGradient>
+        <linearGradient id="gradient-4" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
+            <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
+        </linearGradient>
+        <linearGradient id="gradient-5" x1="50%" y1="0%" x2="50%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
+            <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
+        </linearGradient>
     </defs>
     <g fill="none" id="Main Page">
-        <g fill="rgb(0,0,0)" id="circle"></g>
-        <path id="circle" d="M974,1791 C1398,1791 1742,1447 1742,1023 C1742,599 1398,255 974,255 C550,255 206,599 206,1023 C206,1447 550,1791 974,1791 Z M974,1791" fill="rgb(0,0,0)"></path>
-        <path id="circle decoration" d="" fill="rgb(0,0,0)"></path>
+        <g fill="rgb(0,0,0)" id="Oval 1"></g>
+        <path id="Oval 1" d="M1000,1800 C1442,1800 1800,1442 1800,1000 C1800,558 1442,200 1000,200 C558,200 200,558 200,1000 C200,1442 558,1800 1000,1800 Z M1000,1800" fill="rgb(0,0,0)"></path>
+        <path id="Oval 1 decoration" d="" fill="rgb(0,0,0)"></path>
+        <g fill="rgb(255,255,255)" id="Shape"></g>
+        <path id="Shape" d="M601,520 L920,520 L920,1161 L1399,1161 L1399,1380 L925,1380 C921,1282 874,1203 812,1183 L812,1101 L800,1101 L800,1060 L800,1057 C800,1049 795,1042 789,1039 L784,1029 L784,995 L776,995 L776,1029 L771,1039 C764,1042 760,1049 760,1057 L760,1060 L760,1101 L748,1101 L748,1185 C688,1207 643,1285 639,1380 L601,1380 L601,520 L601,520 Z M1399,1400 L1399,1481 L1361,1481 L1361,1469 C1361,1454 1346,1440 1332,1440 L1190,1440 C1175,1440 1161,1454 1161,1469 L1161,1481 L1100,1481 L1100,1469 C1100,1454 1085,1440 1071,1440 L929,1440 C914,1440 900,1454 900,1469 L900,1481 L840,1481 L840,1469 C840,1454 825,1440 811,1440 L668,1440 C653,1440 639,1454 639,1469 L639,1481 L601,1481 L601,1400 L1399,1400 L1399,1400 Z M1399,1400" fill="rgb(255,255,255)"></path>
+        <path id="Shape decoration" d="" fill="rgb(255,255,255)"></path>
     </g>
 </svg>
