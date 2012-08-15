@@ -1,19 +1,22 @@
 <% content_for :page_title, t(:railway_stations) %>
 
 <%= content_tag "article" do %>
-	<%= content_tag "header" do %>
-		<%= content_tag "hgroup" do %>
-			<%= content_tag "h1", t(:railway_stations) %>
-			<%= content_tag "h2", t(:a_handy_guide) %>
-		<% end %>
-	<% end %>
+  <%= content_tag "header" do %>
+    <%= content_tag "hgroup" do %>
+      <%= content_tag "h1", t(:railway_stations) %>
+      <%= content_tag "h2", t(:a_handy_guide) %>
+    <% end %>
+  <% end %>
 
-	<%= content_tag "ul" do %>
-		<% @stations.each do |station| %>
-			<%= content_tag "li" do %>
-				<%= link_to station.name, station %>		
-			<% end %>
-		<% end %>
-	<% end %>
-	
+  <%= content_tag "ul" do %>
+    <% @stations.each do |station| %>
+      <%= content_tag "li" do %>
+        <%= link_to station do %>
+          <%= image_tag "station_pictograms/#{station.id}.svg", :width => nil, :height => nil, :class => 'station_pictogram', :alt => "" %>
+          <%= content_tag "span", station.name %>
+        <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+
 <% end %>

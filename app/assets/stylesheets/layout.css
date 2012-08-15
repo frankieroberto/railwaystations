@@ -1,38 +1,46 @@
 article {
-	max-width: 30em; margin: 0 auto; min-height: 50em; padding: 1em;
+  max-width: 30em; margin: 0 auto; min-height: 50em; padding: 1em;
 }
 
 header {
-	padding: 0 0; margin: 0 0 2em 0;
+  padding: 0 0; margin: 0 0 2em 0;
 }
 
 header hgroup { padding: 0; }
 
 header h1,
 header h2 {
-	padding: 0; margin: .2em 0;
+  padding: 0; margin: .2em 0;
 }
 
 ul {
-	margin: 0 0 1em 0; padding: 0;
+  margin: 0 0 1em 0; padding: 0;
 }
 
 li {
-	margin: 0 0 .5em 0;
+  margin: 0 0 .2em 0;
 }
 
 .short {
-	display: table-row;
+  display: table-row;
 }
 
 .short header {
-	display: table-cell; width: 8em; padding-right: .5em; 
+  display: table-cell; max-width: 8em; padding-right: .5em;
 }
 
 .short .content {
-	display: table-cell; padding-left: .5em;
+  display: table-cell; padding-left: .5em;
 }
 
 .station_pictogram {
-	height: 6em; margin: 0 auto; display: block;
+  height: 6em; margin: 0 auto; display: block;
+}
+
+li a { display: block; }
+
+li * { vertical-align: middle; }
+
+li .station_pictogram {
+  height: 1.8em; display: inline-block;
 }
