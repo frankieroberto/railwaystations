@@ -1,9 +1,9 @@
 <% if content %>
-	<%= content_tag "section", :class => "short" do %>
-		<%= content_tag "header" do %>
-			<%= content_tag "h2", title, :class => 'title' %>
-		<% end %>
-		
-		<%= content_tag 'p', content, :class => 'content' %>
-	<% end %>
+  <%= content_tag "section", :class => "short" do %>
+    <%= content_tag "header" do %>
+      <%= content_tag "h2", title, :class => 'title' %>
+    <% end %>
+
+    <%= content_tag 'p', content.html_safe, :class => 'content' %>
+  <% end %>
 <% end %>

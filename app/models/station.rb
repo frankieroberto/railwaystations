@@ -24,12 +24,14 @@ class Station
     {
       :id => "EUS",
       :name => "London Euston",
-      :nearest_pub => "The Doric Arch by the bus station outside is a Fullers pub and serves a range of guest ales."
+      :nearest_pub => "The Doric Arch by the bus station outside is a Fullers pub and serves a range of guest ales.",
+      :luggage_storage => "Opposite platforms 16–18. £8.50 per item."
     },
     {
       :id => "PAD",
       :name => "London Paddington",
-      :things_to_see => "A statue of Paddington Bear sits by the bottom of the escalators."
+      :things_to_see => "A statue of Paddington Bear sits by the bottom of the escalators.",
+      :luggage_storage => "On Platform 10. £8.50 per item."
     },
     {
       :id => "EDB",
@@ -39,7 +41,8 @@ class Station
       :id => "LST",
       :name => "London Liverpool Street",
       :things_to_see => "A rusting sculpture called 'Fulcrum' sits outside the Eastern entrance. Walk inside and look up.",
-      :nearest_pub => "There's a Wetherspoon above the main concourse and plenty of pubs nearby."
+      :nearest_pub => "There's a Wetherspoon above the main concourse and plenty of pubs nearby.",
+      :luggage_storage => "On Platform 10. £8.50 per item."
     },
     {
       :id => "LDS",
@@ -52,7 +55,8 @@ class Station
     },
     {
       :id => "MAN",
-      :name => "Manchester Piccadilly"
+      :name => "Manchester Piccadilly",
+      :luggage_storage => "Between platforms 10 &amp; 11. £3 – £7 per item."
     },
     {
       :id => "FST",
@@ -60,11 +64,12 @@ class Station
     },
     {
       :id => "VIC",
-      :name => "London Victoria"
+      :name => "London Victoria",
+      :luggage_storage => "Between platforms 7 &amp; 8. £8.50 per item."
     }
   ]
 
-  attr_accessor :name, :id, :things_to_see, :nearest_pub
+  attr_accessor :name, :id, :things_to_see, :nearest_pub, :luggage_storage
 
   def initialize(attributes = {})
     attributes.each do |name, value|
