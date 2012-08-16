@@ -7,7 +7,7 @@ class Station
     {
       :id => "KBX",
       :name => "London Kings Cross",
-      :things_to_see => "The entrance to Platform 9¾ can be seen on the external wall onto Eusto Road."
+      :things_to_see => "The entrance to Platform 9¾ can be seen on the external wall onto Euston Road."
     },
     {
       :id => "BHM",
@@ -56,7 +56,9 @@ class Station
     {
       :id => "MAN",
       :name => "Manchester Piccadilly",
-      :luggage_storage => "Between platforms 10 &amp; 11. £3 – £7 per item."
+      :luggage_storage => "Halfway down platforms 10 &amp; 11. £3 – £7 per item depending on hours required.",
+      :nearest_pub => "There's an obviously-named bar on the balcony level with sofas and loud televisions.",
+      :meet_at => "The top of the escalators down to the Metrolink tram platforms."
     },
     {
       :id => "FST",
@@ -69,7 +71,7 @@ class Station
     }
   ]
 
-  attr_accessor :name, :id, :things_to_see, :nearest_pub, :luggage_storage
+  attr_accessor :name, :id, :things_to_see, :nearest_pub, :luggage_storage, :meet_at
 
   def initialize(attributes = {})
     attributes.each do |name, value|
