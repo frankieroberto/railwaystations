@@ -21,5 +21,7 @@
 
   <%= render "short_section", { :title => t(:luggage_storage), :content => @station.luggage_storage } %>
 
+  <%= link_to "<span class='arrow'></span> More stations".html_safe, root_path, :class => "back" %>
+
 
 <% end %>

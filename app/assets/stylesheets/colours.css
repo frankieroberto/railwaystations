@@ -1,8 +1,24 @@
 body {
-	background-color: #013; color: #FCFCFF;
+  background-color: #013; color: #FCFCFF;
 }
 
 article,
 a {
-	background-color: #FCFCFF; color: #013;
+  background-color: #FCFCFF; color: #013;
 }
+
+a.back {
+  background-color: #013; color: #FCFCFF;
+}
+
+.arrow {
+  border-top-color: #FCFCFF;
+  border-bottom-color: #FCFCFF;
+  border-right-color: #013;
+}
+
+a.back:hover {
+  background-color: rgb(0,17,141);
+}
+
+a.back:hover .arrow { border-right-color: rgb(0,17,141); }

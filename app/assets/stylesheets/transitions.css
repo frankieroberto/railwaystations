@@ -1,0 +1,17 @@
+
+.back,
+.arrow {
+  -webkit-transition-duration: .4s;
+  -moz-transition-duration: .4s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timining-function: linear;
+   }
+
+.back {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  }
+.arrow {
+  -webkit-transition-property: border-color;
+  -moz-transition-propert: border-color;
+  }

@@ -1,7 +1,11 @@
 header {
-	text-align: center;
+  text-align: center;
 }
 
 .short .title {
-	text-align: right;
+  text-align: right;
+}
+
+a.back {
+  text-align: center;
 }
