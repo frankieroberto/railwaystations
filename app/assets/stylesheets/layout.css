@@ -26,11 +26,14 @@ li {
 }
 
 .short header {
-  display: table-cell; max-width: 8em; padding-right: .5em;
+  display: table-cell; padding-right: .5em;
+  padding-bottom: .5em;
 }
 
 .short .content {
   display: table-cell; padding-left: .5em;
+  padding-bottom: .5em;
+
 }
 
 .station_pictogram {

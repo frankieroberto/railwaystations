@@ -11,15 +11,15 @@
   <% end %>
 
 
-  <%= render "short_section", { :title => t(:things_to_see), :content => @station.things_to_see } %>
+  <%= render "short_section", { :title => t('things_to_see.html'), :content => @station.things_to_see } %>
 
-  <%= render "short_section", { :title => t(:nearest_pub), :content => @station.nearest_pub } %>
+  <%= render "short_section", { :title => t('nearest_pub.html'), :content => @station.nearest_pub } %>
 
-  <%= render "short_section", { :title => t(:meet_at), :content => @station.meet_at } %>
+  <%= render "short_section", { :title => t('meet_at.html'), :content => @station.meet_at } %>
 
-  <%= render "short_section", { :title => t(:best_coffee), :content => @station.best_coffee } %>
+  <%= render "short_section", { :title => t('best_coffee.html'), :content => @station.best_coffee } %>
 
-  <%= render "short_section", { :title => t(:luggage_storage), :content => @station.luggage_storage } %>
+  <%= render "short_section", { :title => t('luggage_storage.html'), :content => @station.luggage_storage } %>
 
   <%= link_to "<span class='arrow'></span> More stations".html_safe, root_path, :class => "back" %>
 
