@@ -56,9 +56,11 @@ class Station
     {
       :id => "MAN",
       :name => "Manchester Piccadilly",
+      :things_to_see => "The end wall by platform 12 is home to rotating exhibitions of local art and photography.",
       :luggage_storage => "Halfway down platforms 10 &amp; 11. £3 – £7 per item depending on hours required.",
       :nearest_pub => "There's an obviously-named bar on the balcony level with sofas and loud televisions.",
-      :meet_at => "The top of the escalators down to the Metrolink tram platforms."
+      :meet_at => "The top of the escalators down to the Metrolink tram platforms.",
+      :best_coffee => "The two Costa units service a reasonable flat white and usually have shorter queues than the Starbucks."
     },
     {
       :id => "FST",
@@ -71,7 +73,7 @@ class Station
     }
   ]
 
-  attr_accessor :name, :id, :things_to_see, :nearest_pub, :luggage_storage, :meet_at
+  attr_accessor :name, :id, :things_to_see, :nearest_pub, :luggage_storage, :meet_at, :best_coffee
 
   def initialize(attributes = {})
     attributes.each do |name, value|
