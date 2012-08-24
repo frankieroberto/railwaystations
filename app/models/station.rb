@@ -6,7 +6,7 @@ class Station
   STATIONS = [
     {
       :id => "KBX",
-      :name => "London Kings Cross",
+      :name => "Kings Cross",
       :things_to_see => "The entrance to Platform 9¾ can be seen on the external wall onto Euston Road."
     },
     {
@@ -23,13 +23,13 @@ class Station
     },
     {
       :id => "EUS",
-      :name => "London Euston",
+      :name => "Euston",
       :nearest_pub => "The Doric Arch by the bus station outside is a Fullers pub and serves a range of guest ales.",
       :luggage_storage => "Opposite platforms 16–18. £8.50 per item."
     },
     {
       :id => "PAD",
-      :name => "London Paddington",
+      :name => "Paddington",
       :things_to_see => "A statue of Paddington Bear sits by the bottom of the escalators.",
       :luggage_storage => "On Platform 10. £8.50 per item."
     },
@@ -39,7 +39,7 @@ class Station
     },
     {
       :id => "LST",
-      :name => "London Liverpool Street",
+      :name => "Liverpool Street",
       :things_to_see => "A rusting sculpture called 'Fulcrum' sits outside the Eastern entrance. Walk inside and look up.",
       :nearest_pub => "There's a Wetherspoon above the main concourse and plenty of pubs nearby.",
       :luggage_storage => "On Platform 10. £8.50 per item."
@@ -64,12 +64,38 @@ class Station
     },
     {
       :id => "FST",
-      :name => "London Fenchurch Street"
+      :name => "Fenchurch Street"
     },
     {
       :id => "VIC",
-      :name => "London Victoria",
+      :name => "Victoria",
       :luggage_storage => "Between platforms 7 &amp; 8. £8.50 per item."
+    },
+    {
+      :id => "CHX",
+      :name => "Charing Cross"
+    },
+    {
+      :id => "GLC",
+      :name => "Glasgow Central"
+    },
+    {
+      :id => "CST",
+      :name => "Cannon Street"
+    },
+    {
+      :id => "WAT",
+      :name => "Waterloo",
+      :meet_at => "Under the clock, naturally.",
+      :things_to_see => "Inside the Victory Arch entrance is a memorial to railway staff killed during the two World Wars."
+
+    },
+    {
+      :id => "STP",
+      :name => "St Pancras",
+      :things_to_see => "A statue of John Betjeman admiring the roof celebrates the poet’s role in saving the station.",
+      :meet_at => "The large bronze statue of a couple embracing by Paul Day, titled, naturally enough, <cite>Meeting Place</cite>.",
+      :best_coffee => "Le Pain De Quotidean serves coffee in the typical French style of a bowl-like cup."
     }
   ]
 
