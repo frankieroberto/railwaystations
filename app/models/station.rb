@@ -60,7 +60,7 @@ class Station
       :luggage_storage => "Halfway down platforms 10 &amp; 11. £3 – £7 per item depending on hours required.",
       :nearest_pub => "There's an obviously-named bar on the balcony level with sofas and loud televisions.",
       :meet_at => "The top of the escalators down to the Metrolink tram platforms.",
-      :best_coffee => "The two Costa units service a reasonable flat white and usually have shorter queues than the Starbucks."
+      :best_coffee => "The two Costa units serve a reasonable flat white and usually have shorter queues than the Starbucks."
     },
     {
       :id => "FST",
