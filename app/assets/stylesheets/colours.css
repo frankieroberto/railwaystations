@@ -22,3 +22,5 @@ a.back:hover {
 }
 
 a.back:hover .arrow { border-right-color: rgb(0,17,141); }
+
+li a:hover .circle {fill: rgb(0,17,141);}
