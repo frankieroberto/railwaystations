@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg" version="1.1">
-    <title>Kings Cross</title>
-    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
-    <defs>
-        <linearGradient id="gradient-1" x1="50%" y1="0%" x2="50%" y2="100%">
-            <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
-            <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
-        </linearGradient>
-        <linearGradient id="gradient-2" x1="50%" y1="0%" x2="50%" y2="100%">
-            <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
-            <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
-        </linearGradient>
-        <linearGradient id="gradient-3" x1="50%" y1="0%" x2="50%" y2="100%">
-            <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
-            <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
-        </linearGradient>
-        <linearGradient id="gradient-4" x1="50%" y1="0%" x2="50%" y2="100%">
-            <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:100"></stop>
-            <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:100"></stop>
-        </linearGradient>
-    </defs>
-    <g fill="none" id="Main Page">
-        <g fill="rgb(0,0,0)" id="Circle"></g>
-        <path class="circle" d="M1000,1800 C1442,1800 1800,1442 1800,1000 C1800,558 1442,200 1000,200 C558,200 200,558 200,1000 C200,1442 558,1800 1000,1800 Z M1000,1800" fill="rgb(0,0,0)"></path>
-        <path id="Circle decoration" d="" fill="rgb(0,0,0)"></path>
-        <g fill="rgb(255,255,255)" id="Rectangle"></g>
-        <path id="Rectangle" d="M840,760 L840,800 L1159,800 L1159,760 L840,760 Z M840,760" fill="rgb(255,255,255)"></path>
-        <path id="Rectangle decoration" d="" fill="rgb(255,255,255)"></path>
-        <g fill="rgb(255,255,255)" id="Crown"></g>
-        <path id="Crown" d="M999,684 C913,684 847,689 770,737 C759,684 756,624 709,562 C639,499 648,510 648,485 C648,460 716,442 736,485 C757,516 788,510 826,510 C810,605 850,624 878,624 C963,610 904,518 894,499 C886,479 878,477 890,458 L949,451 L999,386 C999,386 1049,451 1049,451 L1108,458 C1120,477 1112,479 1104,499 C1094,518 1035,610 1120,624 C1148,624 1188,605 1172,510 C1210,510 1241,516 1262,485 C1282,442 1350,460 1350,485 C1350,510 1359,499 1289,562 C1242,624 1239,684 1228,737 C1151,689 1085,684 999,684 C999,687 999,684 999,684 Z M999,684" fill="rgb(255,255,255)"></path>
-        <path id="Crown decoration" d="" fill="rgb(255,255,255)"></path>
-        <g fill="rgb(255,255,255)" id="X"></g>
-        <path id="X" d="M760,761 L1013,1018 L1266,761 L1506,761 L1128,1135 L1506,1520 L1288,1520 L1013,1248 L1128,1135 L1013,1018 L899,1135 L1013,1248 L739,1520 L521,1520 L899,1135 L521,761 L760,761 L760,761 Z M760,761" fill="rgb(255,255,255)"></path>
-        <path id="X decoration" d="" fill="rgb(255,255,255)"></path>
-    </g>
+  <path class="circle" d="M1000,1800 C1442,1800 1800,1442 1800,1000 C1800,558 1442,200 1000,200 C558,200 200,558 200,1000 C200,1442 558,1800 1000,1800 Z M1000,1800" fill="rgb(0,0,0)"></path>
+  <g>
+    <path id="Rectangle" d="M840,760 L840,800 L1159,800 L1159,760 L840,760 Z M840,760" fill="rgb(255,255,255)"></path>
+    <path id="Crown" d="M999,684 C913,684 847,689 770,737 C759,684 756,624 709,562 C639,499 648,510 648,485 C648,460 716,442 736,485 C757,516 788,510 826,510 C810,605 850,624 878,624 C963,610 904,518 894,499 C886,479 878,477 890,458 L949,451 L999,386 C999,386 1049,451 1049,451 L1108,458 C1120,477 1112,479 1104,499 C1094,518 1035,610 1120,624 C1148,624 1188,605 1172,510 C1210,510 1241,516 1262,485 C1282,442 1350,460 1350,485 C1350,510 1359,499 1289,562 C1242,624 1239,684 1228,737 C1151,689 1085,684 999,684 C999,687 999,684 999,684 Z M999,684" fill="rgb(255,255,255)"></path>
+    <path d="M760,761 L1013,1018 L1266,761 L1506,761 L1128,1135 L1506,1520 L1288,1520 L1013,1248 L1128,1135 L1013,1018 L899,1135 L1013,1248 L739,1520 L521,1520 L899,1135 L521,761 L760,761 L760,761 Z M760,761" fill="rgb(255,255,255)"></path>
+  </g>
 </svg>
