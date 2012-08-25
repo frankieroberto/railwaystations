@@ -60,6 +60,7 @@ header svg {
 li a { display: block; }
 
 li img,
+li svg,
 li span { vertical-align: middle; }
 
 li img,
