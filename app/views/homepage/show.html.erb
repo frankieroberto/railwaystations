@@ -12,7 +12,7 @@
     <% @stations.each do |station| %>
       <%= content_tag "li" do %>
         <%= link_to station do %>
-          <%= image_tag "station_pictograms/#{station.id}.svg", :width => nil, :height => nil, :class => 'station_pictogram', :alt => "" %>
+          <%= image_tag "station_pictograms/#{station.id}.svg", :width => nil, :height => nil, :alt => "" %>
           <%= content_tag "span", station.name %>
         <% end %>
       <% end %>

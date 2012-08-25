@@ -52,16 +52,19 @@ li {
 
 }
 
-.station_pictogram {
-  height: 6em; margin: 0 auto; display: block;
+header img,
+header svg {
+  height: 6em; width: 6em; margin: 0 auto; display: block;
 }
 
 li a { display: block; }
 
-li * { vertical-align: middle; }
+li img,
+li span { vertical-align: middle; }
 
-li .station_pictogram {
-  height: 1.8em; display: inline-block;
+li img,
+li svg {
+  height: 1.8em; width: 1.8em; display: inline-block;
 }
 
 a.back {
