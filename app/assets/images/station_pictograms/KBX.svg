@@ -22,7 +22,7 @@
     </defs>
     <g fill="none" id="Main Page">
         <g fill="rgb(0,0,0)" id="Circle"></g>
-        <path id="Circle" d="M1000,1800 C1442,1800 1800,1442 1800,1000 C1800,558 1442,200 1000,200 C558,200 200,558 200,1000 C200,1442 558,1800 1000,1800 Z M1000,1800" fill="rgb(0,0,0)"></path>
+        <path class="circle" d="M1000,1800 C1442,1800 1800,1442 1800,1000 C1800,558 1442,200 1000,200 C558,200 200,558 200,1000 C200,1442 558,1800 1000,1800 Z M1000,1800" fill="rgb(0,0,0)"></path>
         <path id="Circle decoration" d="" fill="rgb(0,0,0)"></path>
         <g fill="rgb(255,255,255)" id="Rectangle"></g>
         <path id="Rectangle" d="M840,760 L840,800 L1159,800 L1159,760 L840,760 Z M840,760" fill="rgb(255,255,255)"></path>
