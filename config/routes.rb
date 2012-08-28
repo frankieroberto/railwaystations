@@ -1,6 +1,8 @@
 Railwaystations::Application.routes.draw do
 
-  resources :stations, :only => :show, :path => "", :constraints => {:id => /[A-Z]{3}/}
+  resources :stations, :only => :show, :path => "", :constraints => {:id => /[A-Z]{3}/} do
+    resource :icon, :controller => :station_icons, :only => :show, :constraints => {:format => /svg/}
+  end
 
   resource :icon, :controller => :icon, :constraints => {:format => /png/}, :only => :show
 
