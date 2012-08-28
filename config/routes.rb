@@ -7,6 +7,8 @@ Railwaystations::Application.routes.draw do
   resource :example, :controller => :example, :only => :show
   resource :edition, :controller => :edition, :only => :show
 
+  resource :meta, :controller => :meta, :only => :show, :constraints => {:id => /json/ }
+
   root :to => "homepage#show"
 
 end
