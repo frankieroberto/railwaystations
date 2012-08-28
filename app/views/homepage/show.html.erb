@@ -12,7 +12,7 @@
     <% @stations.each do |station| %>
       <%= content_tag "li" do %>
         <%= link_to station do %>
-          <%= File.read("#{Rails.root}/app/assets/images/station_pictograms/#{station.id}.svg").html_safe %>
+          <%= File.read("#{Rails.root}/app/assets/images/#{station.id}.svg").html_safe %>
 
           <%= content_tag "span", station.name %>
         <% end %>
