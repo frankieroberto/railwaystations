@@ -3,7 +3,7 @@ article {
 }
 
 body.little_printer {
-  border-bottom-width: 4px; margin: 0;
+  border-bottom-width: 4px; margin: 0; width: 384px;
 }
 
 body.little_printer article {
@@ -22,6 +22,10 @@ body {
 
 header {
   padding: 0 0; margin: 0 0 2em 0;
+}
+
+.little_printer header {
+  margin-bottom: 1em;
 }
 
 header hgroup { padding: 0; }

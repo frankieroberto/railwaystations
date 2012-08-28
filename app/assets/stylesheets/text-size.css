@@ -1,15 +1,24 @@
 body {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 header h1 {
-	font-size: 2em;
+  font-size: 2em;
+}
+
+.little_printer header h1 {
+  font-size: 1.4em;
 }
 
 header hgroup h2 {
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
+.little_printer header hgroup h2 {
+  font-size: 1em; font-weight: normal;
+}
+
+
 .short .title {
-	font-size: 1em;
+  font-size: 1em;
 }
