@@ -1,0 +1,6 @@
+
+.little_printer .back { display: none; }
+
+@media print {
+  .back { display: none; }
+}

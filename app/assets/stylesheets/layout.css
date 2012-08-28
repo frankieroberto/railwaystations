@@ -2,6 +2,14 @@ article {
   max-width: 30em; margin: 0 auto; min-height: 30em; padding: 1em;
 }
 
+body.little_printer {
+  border-bottom-width: 4px; margin: 0;
+}
+
+body.little_printer article {
+  min-height: 1em;
+}
+
 body {
   margin: auto;
 }

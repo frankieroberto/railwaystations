@@ -2,6 +2,11 @@ body {
   background-color: #013; color: #FCFCFF;
 }
 
+body.little_printer,
+body.little_printer article {
+  background-color: white; color: black;
+}
+
 article,
 a {
   background-color: #FCFCFF; color: #013;
