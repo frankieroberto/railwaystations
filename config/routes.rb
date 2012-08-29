@@ -6,7 +6,7 @@ Railwaystations::Application.routes.draw do
 
   resource :icon, :controller => :icon, :constraints => {:format => /png/}, :only => :show
 
-  resource :example, :controller => :example, :only => :show
+  resource :sample, :controller => :sample, :only => :show
   resource :edition, :controller => :edition, :only => :show
 
   resource :meta, :controller => :meta, :only => :show, :constraints => {:id => /json/ }
