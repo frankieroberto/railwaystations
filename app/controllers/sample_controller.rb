@@ -1,4 +1,4 @@
-class ExampleController < ApplicationController
+class SampleController < ApplicationController
 
   def show
     @station = Station.find("KBX")
