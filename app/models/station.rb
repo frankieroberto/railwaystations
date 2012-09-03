@@ -9,21 +9,25 @@ class Station
       :name => "Kings Cross",
       :things_to_see => "The entrance to Platform 9¾ can be glimpsed next to Platform 9.",
       :nearest_pub => "The Parcel Yard is a Fullers pub within the station’s old parcel sorting office.",
+      :luggage_storage => "By platforms 9-11. £8.50 for 24 hours.",
       :number => 1
     },
     {
       :id => "BHM",
       :name => "Birmingham New Street",
+      :luggage_storage => "By the Bullring entrance. £3 - £7 per item, depending on hours.",
       :number => 15
     },
     {
       :id => "GTW",
       :name => "Gatwick Airport",
+      :luggage_storage => "In the South Terminal building. £8 per item per day.",
       :number => 9
     },
     {
       :id => "LBG",
       :name => "London Bridge",
+      :luggage_storage => "Not available at this station. Nearest facility at Waterloo.",
       :number => 16
     },
     {
@@ -43,6 +47,7 @@ class Station
     {
       :id => "EDB",
       :name => "Edinburgh Waverley",
+      :luggage_storage => "On platform 2. £7 per item per day.",
       :number => 5
     },
     {
@@ -56,12 +61,14 @@ class Station
     {
       :id => "LDS",
       :name => "Leeds",
+      :luggage_storage => "By the Wellington Street entrance. £3-7 per item.",
       :number => 7
     },
     {
       :id => "LIV",
       :name => "Liverpool Lime Street",
       :things_to_see => "Statues of notable locals Ken Dodd and Bressie Braddock stand on the concourse.",
+      :luggage_storage => "Opposite the Northern Rail booking office. £3-7 per item.",
       :number => 13
     },
     {
@@ -77,6 +84,7 @@ class Station
     {
       :id => "FST",
       :name => "Fenchurch Street",
+      :luggage_storage => "Not available here. Nearest facility at Liverpool Street.",
       :number => 4
     },
     {
