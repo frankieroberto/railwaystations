@@ -8,6 +8,7 @@ class Station
       :id => "KBX",
       :name => "Kings Cross",
       :things_to_see => "The entrance to Platform 9¾ can be glimpsed next to Platform 9.",
+      :nearest_pub => "The Parcel Yard is a Fullers pub within the station’s old parcel sorting office.",
       :number => 1
     },
     {
@@ -87,6 +88,7 @@ class Station
     {
       :id => "CHX",
       :name => "Charing Cross",
+      :nearest_pub => "The ancient, cavenous Gordon's Wine Bar can get very busy, but has atmosphere in spades.",
       :number => 12
     },
     {
@@ -97,6 +99,7 @@ class Station
     {
       :id => "CST",
       :name => "Cannon Street",
+      :nearest_pub => "Nearby pub The Bell serves decent ales in a traditional pub atomsphere.",
       :number => 3
     },
     {
@@ -104,6 +107,7 @@ class Station
       :name => "Waterloo",
       :meet_at => "Under the clock, naturally.",
       :things_to_see => "Inside the Victory Arch entrance is a memorial to railway staff killed during the two World Wars.",
+      :nearest_pub => "The Fire Station across the pub is a popular spot in an unusual building.",
       :number => 17
 
     },
@@ -113,6 +117,7 @@ class Station
       :things_to_see => "A statue of John Betjeman admiring the roof celebrates the poet’s role in saving the station.",
       :meet_at => "The large bronze statue of a couple embracing by Paul Day, titled, naturally enough, <cite>Meeting Place</cite>.",
       :best_coffee => "Le Pain De Quotidean serves coffee in the typical French style of a bowl-like cup.",
+      :nearest_pub => "Try The Betjemen Arms up on the concourse level which also comes with a great view.",
       :number => 18
     }
   ]
