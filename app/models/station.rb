@@ -82,7 +82,7 @@ class Station
       :id => "VIC",
       :name => "Victoria",
       :luggage_storage => "Between platforms 7 &amp; 8. £8.50 per item.",
-      :number => 17
+      :number => 8
     },
     {
       :id => "CHX",
