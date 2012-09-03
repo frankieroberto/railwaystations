@@ -7,15 +7,18 @@ class Station
     {
       :id => "KBX",
       :name => "Kings Cross",
-      :things_to_see => "The entrance to Platform 9¾ can be glimpsed next to Platform 9.",
+      :things_to_see => "The entrance to Platform 9¾ can be glimpsed by Muggles next to Platform 9.",
       :nearest_pub => "The Parcel Yard is a Fullers pub within the station’s old parcel sorting office.",
       :luggage_storage => "By platforms 9-11. £8.50 for 24 hours.",
+      :time_to_kill => "See what's on for free at the British Library, 5 minutes walk away.",
+      :lunch_to_go => "M&S, Burger King, Boots. Better options at St Pancras.",
       :number => 1
     },
     {
       :id => "BHM",
       :name => "Birmingham New Street",
       :luggage_storage => "By the Bullring entrance. £3 - £7 per item, depending on hours.",
+      :time_to_kill => "Get out of that shopping centre into Birmingham proper. Admire the splendid building of Selfridges.",
       :number => 15
     },
     {
@@ -28,6 +31,7 @@ class Station
       :id => "LBG",
       :name => "London Bridge",
       :luggage_storage => "Not available at this station. Nearest facility at Waterloo.",
+      :time_to_kill => "Pick up a tasty treat at Borough Market. And don't forget to get dizzy looking at The Shard.",
       :number => 16
     },
     {
@@ -35,50 +39,65 @@ class Station
       :name => "Euston",
       :nearest_pub => "The Doric Arch by the bus station outside is a Fullers pub and serves a range of guest ales.",
       :luggage_storage => "Opposite platforms 16–18. £8.50 per item.",
+      :lunch_to_go => "Head just outside for a good selection.",
+      :time_to_kill => "Stroll the tree lined avenues of Bloomsbury just across the road.",
       :number => 14
     },
     {
       :id => "PAD",
       :name => "Paddington",
-      :things_to_see => "A statue of Paddington Bear sits by the bottom of the escalators.",
+      :things_to_see => "Paddington Bear sits by the bottom of the escalators.",
       :luggage_storage => "On Platform 10. £8.50 per item.",
+      :lunch_to_go => "Lots of options, not just your standard fare.",
+      :time_to_kill => "A short walk in Kensington Gardens.",
       :number => 10
     },
     {
       :id => "EDB",
       :name => "Edinburgh Waverley",
       :luggage_storage => "On platform 2. £7 per item per day.",
+      :lunch_to_go => "M&amp;S, Boots and a few others.",
+      :time_to_kill => "Get outside and admire the view of the Castle.",
+      :best_coffee => "Costa in the station.",
       :number => 5
     },
     {
       :id => "LST",
       :name => "Liverpool Street",
       :things_to_see => "A rusting sculpture called 'Fulcrum' sits outside the Eastern entrance. Walk inside and look up.",
-      :nearest_pub => "There's a Wetherspoon above the main concourse and plenty of pubs nearby.",
+      :nearest_pub => "A Wetherspoons above the main concourse and plenty of old city pubs nearby.",
+      :best_coffee => "On a weekday, plenty of coffee carts outside. Or the usuals inside.",
       :luggage_storage => "On Platform 10. £8.50 per item.",
+      :time_to_kill => "Take a trip to nearby Spitalfields market.",
       :number => 6
     },
     {
       :id => "LDS",
       :name => "Leeds",
       :luggage_storage => "By the Wellington Street entrance. £3-7 per item.",
+      :time_to_kill => "A trip through the shops on Leeds' main shopping street.",
       :number => 7
     },
     {
       :id => "LIV",
       :name => "Liverpool Lime Street",
-      :things_to_see => "Statues of notable locals Ken Dodd and Bressie Braddock stand on the concourse.",
+      :things_to_see => "Statues of notable locals Ken Dodd and Bressie Braddock stand on the concourse. You can’t miss them.",
       :luggage_storage => "Opposite the Northern Rail booking office. £3-7 per item.",
+      :time_to_kill => "You're a short walk from the Walker Art Gallery. Maybe catch a later train?",
+      :best_coffee => "There’s a Costa.",
+      :lunch_to_go => "M&amp;S, Boots.",
       :number => 13
     },
     {
       :id => "MAN",
       :name => "Manchester Piccadilly",
-      :things_to_see => "The end wall by platform 12 is home to rotating exhibitions of local art and photography.",
-      :luggage_storage => "Halfway down platforms 10 &amp; 11. £3 – £7 per item depending on hours required.",
-      :nearest_pub => "There's an obviously-named bar on the balcony level with sofas and loud televisions.",
+      :things_to_see => "The wall by platform 12 hosts exhibitions of local art and photography.",
+      :luggage_storage => "Halfway down platforms 10 &amp; 11. £3 – £7 per item, depending on hours.",
+      :nearest_pub => "The Balcony Bar (you'll find it) has sofas and televisions.",
       :meet_at => "The top of the escalators down to the Metrolink tram platforms.",
-      :best_coffee => "The two Costa units serve a reasonable flat white and usually have shorter queues than the Starbucks.",
+      :best_coffee => "Two Costa units, a Starbucks and a Pret. Take your pick.",
+      :lunch_to_go => "Plenty of your station standards.",
+      :time_to_kill => "Take a stroll through Manchester's Northern Quarter.",
       :number => 2
     },
     {
@@ -91,17 +110,21 @@ class Station
       :id => "VIC",
       :name => "Victoria",
       :luggage_storage => "Between platforms 7 &amp; 8. £8.50 per item.",
+      :lunch_to_go => "The usuals and a couple of decent sushi options.",
       :number => 8
     },
     {
       :id => "CHX",
       :name => "Charing Cross",
       :nearest_pub => "The ancient, cavenous Gordon's Wine Bar can get very busy, but has atmosphere in spades.",
+      :best_coffee => "Caffe Nero.",
+      :time_to_kill => " Exit towards the tube station to walk along the Thames and admire one of London's finest views.",
       :number => 12
     },
     {
       :id => "GLC",
       :name => "Glasgow Central",
+      :lunch_to_go => "Bagels, M&S, Boots.",
       :number => 11
     },
     {
@@ -126,11 +149,12 @@ class Station
       :meet_at => "The large bronze statue of a couple embracing by Paul Day, titled, naturally enough, <cite>Meeting Place</cite>.",
       :best_coffee => "Le Pain De Quotidean serves coffee in the typical French style of a bowl-like cup.",
       :nearest_pub => "Try The Betjemen Arms up on the concourse level which also comes with a great view.",
+      :lunch_to_go => "Step outside and admire the grandeur of the St Pancras hotel. And wonder if you can afford to stay…",
       :number => 18
     }
   ]
 
-  attr_accessor :name, :id, :things_to_see, :nearest_pub, :luggage_storage, :meet_at, :best_coffee, :number
+  attr_accessor :name, :id, :things_to_see, :nearest_pub, :luggage_storage, :meet_at, :best_coffee, :number, :lunch_to_go, :time_to_kill
 
   def initialize(attributes = {})
     attributes.each do |name, value|

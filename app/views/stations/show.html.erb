@@ -22,6 +22,10 @@
 
   <%= render "stations/short_section", { :title => t('best_coffee.html'), :content => @station.best_coffee } %>
 
+  <%= render "stations/short_section", { :title => t('lunch_to_go.html'), :content => @station.lunch_to_go } %>
+
+  <%= render "stations/short_section", { :title => t('time_to_kill.html'), :content => @station.time_to_kill } %>
+
   <%= render "stations/short_section", { :title => t('luggage_storage.html'), :content => @station.luggage_storage } %>
 
   <%= link_to "<span class='arrow'></span> More stations".html_safe, root_path, :class => "back" %>
