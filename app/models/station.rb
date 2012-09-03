@@ -7,7 +7,7 @@ class Station
     {
       :id => "KBX",
       :name => "Kings Cross",
-      :things_to_see => "The entrance to Platform 9¾ can be seen on the external wall onto Euston Road.",
+      :things_to_see => "The entrance to Platform 9¾ can be glimpsed next to Platform 9.",
       :number => 1
     },
     {
