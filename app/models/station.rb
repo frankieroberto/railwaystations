@@ -75,6 +75,7 @@ class Station
       :id => "LDS",
       :name => "Leeds",
       :luggage_storage => "By the Wellington Street entrance. £3-7 per item.",
+      :nearest_pub => "The Scarborough Tap is a great pub with real beer, it's across the road from the main entrance.",
       :time_to_kill => "A trip through the shops on Leeds' main shopping street.",
       :number => 7
     },
@@ -125,6 +126,10 @@ class Station
       :id => "GLC",
       :name => "Glasgow Central",
       :lunch_to_go => "Bagels, M&S, Boots.",
+      :best_coffee => "Franco's on the station concourse, nice friendly little independent place.",
+      :meet_at => "In the corner by the entrance to the Grand Central Hotel there are places to stand which aren't too busy.",
+      :lunch_to_go => "Plenty of places on Argyle Street, exit at the lower level from the station.",
+      :time_to_kill => "Looking at the brilliant architecture that Glasgow has to offer! The Lighthouse is worth a visit on Mitchell Lane. Also good shopping within easy walking of the station (head north).",
       :number => 11
     },
     {
