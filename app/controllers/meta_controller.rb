@@ -8,8 +8,7 @@ class MetaController < ApplicationController
       "description" => "Useful and interesting information to help you survive long waits at the UK's busiest railway stations.",
       "delivered_on" => "every week",
       "send_timezone_info" => "false",
-      "send_delivery_count" => "true",
-      "config" => {},
+      "send_delivery_count" => "true"
     }
 
     render :json => meta
