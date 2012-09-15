@@ -102,4 +102,6 @@ a.back {
   float: left;
 }
 
-img.title {height: 2em; width: 2em; margin: auto; display: inline;}
+img.title {height: 2em; width: 2em;margin: auto; display: inline;}
+
+body.little_printer img.title {width: 60; height: 60px;}
