@@ -54,13 +54,15 @@ li {
 }
 
 .short header {
-  display: table-cell; padding-right: .5em;
-  padding-bottom: .5em;
+  display: table-cell; padding-right: .5em; padding-bottom: .5em;
+}
+
+.short header h2 {
+  margin: 0;
 }
 
 .short .content {
-  display: table-cell; padding-left: .5em;
-  padding-bottom: .5em;
+  display: table-cell; vertical-align: top;
 
 }
 
@@ -99,3 +101,5 @@ a.back {
   margin-top: 0; margin-right: .5em;
   float: left;
 }
+
+img.title {height: 2em; width: 2em; margin: auto; display: inline;}
