@@ -1,7 +1,7 @@
 class SampleController < ApplicationController
 
   def show
-    @station = Station.find("KBX")
+    @station = Station.find("KGX")
     @context = "little_printer"
     render "stations/show"
   end
