@@ -16,15 +16,17 @@
 
   <%= render "stations/short_section", { :title => t('things_to_see.html'), :content => @station.things_to_see, :icon => :look } %>
 
-  <%= render "stations/short_section", { :title => t('nearest_pub.html'), :content => @station.nearest_pub, :icon => :pub } %>
+  <%= render "stations/short_section", { :title => t('best_coffee.html'), :content => @station.best_coffee, :icon => :coffee } %>
+
 
   <%= render "stations/short_section", { :title => t('meet_at.html'), :content => @station.meet_at, :icon => :meeting_point } %>
 
-  <%= render "stations/short_section", { :title => t('best_coffee.html'), :content => @station.best_coffee, :icon => :coffee } %>
 
   <%= render "stations/short_section", { :title => t('lunch_to_go.html'), :content => @station.lunch_to_go, :icon => :food } %>
 
   <%= render "stations/short_section", { :title => t('time_to_kill.html'), :content => @station.time_to_kill, :icon => :walk } %>
+
+  <%= render "stations/short_section", { :title => t('nearest_pub.html'), :content => @station.nearest_pub, :icon => :pub } %>
 
   <%= render "stations/short_section", { :title => t('luggage_storage.html'), :content => @station.luggage_storage, :icon => :luggage } %>
 
