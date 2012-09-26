@@ -5,7 +5,7 @@ class Station
 
   STATIONS = [
     {
-      :id => "KBX",
+      :id => "KGX",
       :name => "Kings Cross",
       :things_to_see => "The entrance to magical Platform&#160;9¾",
       :nearest_pub => "The Parcel Yard, in the station’s old post sorting office",
