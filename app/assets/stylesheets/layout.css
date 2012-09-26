@@ -104,4 +104,17 @@ a.back {
 
 img.title {height: 2em; width: 2em;margin: auto; display: inline;}
 
-body.little_printer img.title {width: 60; height: 60px;}
+
+body.little_printer section header {
+  padding: 0 10px 0 0; margin: 0;
+}
+
+body.little_printer section p.content {
+  padding: 0 0 12px 0;
+}
+
+
+body.little_printer header svg {
+  height: 128px; width: 128px;
+}
+body.little_printer img.title {width: 60px; height: 60px;}
