@@ -7,4 +7,6 @@ Railwaystations::Application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
+  # This needs to be set for Little Printer
+  config.action_controller.asset_host = "http://railwaystations.frankieroberto.com"
 end
