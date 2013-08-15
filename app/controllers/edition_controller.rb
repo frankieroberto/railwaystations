@@ -9,13 +9,13 @@ class EditionController < ApplicationController
 
     @station = Station.find_by_number(@number)
 
-    if params[:local_delivery_time] && @local_delivery_time.wday == 1 && @station
+    
 
-      @context = "little_printer"
-
-      render "stations/show"
-    else
+    if @station.nil? || (@local_delivery_time && @local_delivery_time.wday != 1)
       render :nothing => true
+    else
+      @context = "little_printer"
+      render "stations/show"
     end
   end
 
