@@ -15,7 +15,6 @@ module Railwaystations
 
     config.whiny_nils = true
     config.encoding = "utf-8"
-#    config.logger = Logger.new(STDOUT)
 
     config.session_store :disabled
 
@@ -26,6 +25,8 @@ module Railwaystations
 
     config.assets.enabled = true
     config.assets.version = '1.1'
+    config.assets.initialize_on_precompile = false
+
 
     config.action_dispatch.best_standards_support = :builtin
 
