@@ -20,14 +20,23 @@ module Railwaystations
 
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
+    
+    # We don't need sessions for this
+    config.session_store :disabled
 
     # Enable the asset pipeline
     config.assets.enabled = true
+    # This makes assets work with Heroku
+    config.assets.initialize_on_precompile = false
+    # Version of your assets, change this if you want to expire all your assets
+    config.assets.version = '1.1'
     
     # Set the default locale to be British English
     config.i18n.default_locale = :"en-gb"    
 
-    # Version of your assets, change this if you want to expire all your assets
-    config.assets.version = '1.0'
+    
+    # Use STDOUT as a Logger (required by Unicorn on Heroku)
+    config.logger = Logger.new(STDOUT)
+    
   end
 end
