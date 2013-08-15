@@ -15,7 +15,7 @@ module Railwaystations
 
     config.whiny_nils = true
     config.encoding = "utf-8"
-    config.logger = Logger.new(STDOUT)
+#    config.logger = Logger.new(STDOUT)
 
     config.session_store :disabled
 
